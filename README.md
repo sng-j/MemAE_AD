@@ -1,29 +1,38 @@
-Introduction
-This project is a predictive maintenance AI model utilizing a Memory Auto Encoder (MemAE) and Adversarial Learning for unsupervised anomaly detection. It is designed to overcome the difficulties of identifying process issues and taking action, ultimately reducing manufacturing losses and promoting efficient facility management for small and medium-sized manufacturing enterprises.
+# MemAE_AD
 
-Key Features
-Advanced Anomaly Detection: Overcomes the limitations of traditional Auto Encoders—which often fail to distinguish anomalies that closely resemble normal data—by integrating adversarial learning.
+## Introduction
+This project is a predictive maintenance AI model that utilizes data and machine learning to achieve efficient facility management. It was developed to overcome challenges in the manufacturing industry, such as the difficulty in identifying and addressing process issues, and the resulting increase in manufacturing losses.
 
-Stable Training Architecture: Resolves the training instability commonly found in GAN-based anomaly detection models by combining it securely with an AE-based structure.
+## Developer
+- **Seungje Seong** : [GitHub](https://github.com/Trouvler)
 
-Fast and Accurate: Features a highly efficient, simple structure based on unsupervised learning, ensuring rapid processing speeds and high accuracy without the need for labeled data.
+## Development Environment
+- **Language** : Python
+- **Framework** : PyTorch
 
-Manufacturing Optimization: Readily applicable to various manufacturing processes, helping businesses increase management efficiency, prevent unexpected accidents, and boost overall profitability.
+## Key Features
+- **Advanced Anomaly Detection**: Overcomes the limitations of traditional Auto Encoders—which often fail to distinguish anomalies that closely resemble normal data during reconstruction—by integrating a Memory Auto Encoder (MemAE) with adversarial learning.
+- **Stable Training Architecture**: Resolves the training instability commonly found in GAN-based anomaly detection models by securely combining it with an AE-based structure.
+- **Fast and Accurate**: Features a highly efficient and simple structure based on unsupervised learning, ensuring rapid processing speeds and high accuracy.
+- **Manufacturing Optimization**: Readily applicable to various manufacturing processes in small and medium-sized enterprises. This helps businesses increase process management efficiency, prevent unexpected accidents, and boost overall profitability.
 
-Development Environment: Built entirely with Python and the PyTorch framework.
+## Model Structure
+*(You can insert an image or a brief diagram of your model structure here)*
 
-Usage
-Download: Clone the repository to your local environment.
+## Usage
+1. **Download**
+   Clone the repository to your local environment:
+   ```bash
+   git clone https://github.com/sng-j/MemAE_AD.git
+   ```
 
-Bash
-git clone https://github.com/sng-j/MemAE_AD.git
-2. **Run:** Install the required dependencies and execute the training/evaluation scripts.
+2. **Run**
+   Set up your environment with Python and PyTorch. Then, open and run the provided Jupyter Notebooks (`main.ipynb.ipynb` or `EDA.ipynb`) to explore the data, train the model, and perform evaluations.
 
 ## License
 MIT License
 
----
-**References**
-*   Kingma, Diederik P., and Max Welling. "Auto-encoding variational bayes." *arXiv preprint arXiv:1312.6114* (2013).
-*   Gong, Dong, et al. "Memorizing normality to detect anomaly: Memory-augmented deep autoencoder for unsupervised anomaly detection." *Proceedings of the IEEE/CVF International Conference on Computer Vision*. 2019.
-*   Audibert, Julien, et al. "Usad: Unsupervised anomaly detection on multivariate time series." *Proceedings of the 26th ACM SIGKDD international conference on knowledge discovery & data mining*. 2020.
+## References
+- Kingma, Diederik P., and Max Welling. "Auto-encoding variational bayes." *arXiv preprint arXiv:1312.6114* (2013).
+- Gong, Dong, et al. "Memorizing normality to detect anomaly: Memory-augmented deep autoencoder for unsupervised anomaly detection." *Proceedings of the IEEE/CVF International Conference on Computer Vision*. 2019.
+- Audibert, Julien, et al. "Usad: Unsupervised anomaly detection on multivariate time series." *Proceedings of the 26th ACM SIGKDD international conference on knowledge discovery & data mining*. 2020.
