@@ -16,8 +16,6 @@ This project is a predictive maintenance AI model that utilizes data and machine
 - **Fast and Accurate**: Features a highly efficient and simple structure based on unsupervised learning, ensuring rapid processing speeds and high accuracy.
 - **Manufacturing Optimization**: Readily applicable to various manufacturing processes in small and medium-sized enterprises. This helps businesses increase process management efficiency, prevent unexpected accidents, and boost overall profitability.
 
-## Model Structure
-*(You can insert an image or a brief diagram of your model structure here)*
 
 ## Usage
 1. **Download**
